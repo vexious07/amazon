@@ -1,0 +1,154 @@
+html,body, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top-header{
+    background-color: black;
+    height: 60px;
+    display: inline-flex;
+    width: 100%;
+}
+.nav-header{
+    background-color: #23303e ;
+    height: 39px;
+}
+
+img.logo-img{
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.nav-section-1{
+    width: 22%;
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+.nav-section-2{
+    width: 56%;
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+.nav-section-3{
+    width: 22%;
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+.delivery-details{
+    margin: 15px;
+}
+.delivery-name{
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+    margin-top: 4px;
+    color: white;
+    margin-top: 0;
+    padding-right: 0;
+    display: block;
+}
+.delivery-address{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: white;
+    display: block;
+}
+.nav-search{
+    display: block;
+    width: 100%;
+    line-height: 15px;
+    padding: 7px 10px 10px 0;
+    margin: 8px;
+    border: 0;
+    height: 20px;
+    font-family: inherit;
+    font-size: 15px;
+    color: black;
+    outline: 0;
+    box-shadow: none;
+    text-indent: 8px;
+    direction: ltr;
+    border-radius: 5px;
+}
+.nav-list{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 0;
+}
+.nav-list-item{
+    /* margin: 5px 0 5px 0; */
+    padding: 8.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #23303e;
+}
+.nav-list-item a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-list-item:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.hero-section{
+    position: absolute;
+    /* background-image: url(https://m.media-amazon.com/images/I/71SssJO9vKL._SX3000_.jpg); */
+    background-image: url("./amazonbge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+}
+.row{
+    display: inline-flex;
+    width: 100%;
+}
+
+.hero-card-section{
+    position: relative;
+    margin-top: 16%;
+    
+}
+.hero-card{
+    background-color: white;
+    /* height: 360px; */
+    width: 32.3%;
+    margin: 10px;
+    padding: 10px;
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: black;
+}
+.hero-product{
+    padding: 8;
+    width: 80%;
+    margin-bottom: 5px;
+}
+.hero-product-img{
+    max-width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+.hero-product-img-a{
+    max-width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+.hero-product-title{
+    color: #0f1111;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.hero-product-view{
+    font-size: 13px;
+    color: #565959!important;
+}
